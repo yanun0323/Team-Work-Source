@@ -8,8 +8,17 @@ tools: [read_file, write_file, web_search, run_command]
 skills:
   - path: ~/.agents/
   - path: ~/.team-work/
-  - path: ~/.codex/
-  - path: ~/.claude/
+  - path: skills
+  - repo: https://github.com/anthropics/knowledge-work-plugins
+    ref: main
+    path: design
+    include: [accessibility-review, design-critique, design-handoff, design-system, user-research, ux-copy]
+  - repo: https://github.com/vercel-labs/agent-skills
+    ref: main
+    include: [web-design-guidelines]
+  - repo: https://github.com/anthropics/skills
+    ref: main
+    include: [frontend-design]
 look:
   skin: "#e0ac7e"
   hair: "#5a3a22"
