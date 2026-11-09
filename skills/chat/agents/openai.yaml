@@ -1,0 +1,5 @@
+interface:
+  display_name: "Chat"
+  short_description: "Answer questions in plain language without making changes"
+policy:
+  allow_implicit_invocation: false
