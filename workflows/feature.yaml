@@ -138,6 +138,7 @@ nodes:
       zh-Hans: 验收
       ja: 受け入れ確認
       ko: 인수 확인
+    sendBack: false
     prompt:
       en: |-
         Check that the frontend and backend work together and meet the spec. First run the project's tests and build. Then verify each acceptance criterion by actually running the feature, and confirm both sides use the same paths, parameters, responses and error formats. Also try empty data, bad input and repeated actions. Do not change any file in this step.
