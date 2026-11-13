@@ -43,3 +43,15 @@ prompt:
 
 The app shows the language the user picked, then English, then the first one written. Employees are given the
 English text when there is one.
+
+## Order
+
+`order` places a blueprint or a flow among the others of this source, smaller first. Any number works, negative or
+with a fraction, so `1.5` goes between `1` and `2`. Files without it come after those with it, by name in the
+language shown.
+
+```yaml
+order: 1
+name:
+  en: Generalist
+```
