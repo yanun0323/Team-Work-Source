@@ -1,0 +1,1 @@
+這個專案，是隸屬於 `/Users/Shared/Project/product/team-work` 所使用的官方來源。包含多語系的技能、員工藍圖、任務藍圖。
